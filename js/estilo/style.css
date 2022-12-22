@@ -1,24 +1,39 @@
 *{
-    margin: 0;
     padding: 0;
-    border: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
-body{
-    background-color: rgb(43, 226, 92);
-    margin: auto;
+
+.laranja{
+    background-color: rgb(243, 173, 43);
+    transition: all 0.25s ease-in-out;
+}
+.vermelho{
+    background-color: rgb(175, 40, 40);
+    transition: all 0.25s ease-in-out;
+}
+.purpura{
+    background-color: rgb(109, 29, 109);
+    transition: all 0.25s ease-in-out;
+}
+
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+div.container{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    border: 1px solid red;
-    border-radius: 23px;
-    padding: 10px;
-   color: rgb(229, 255, 0);
-   font-style: italic;
-   cursor: pointer;
-
-}
-abbr{
-color: blue;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
 }
