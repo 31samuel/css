@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.btn{
+    text-align: center;
+    place-self: center
+    ;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    border: solid 2px grey;
+    color: grey;
+    text-decoration: none;
+}
+.box{
+    display: grid;
+    width: 50vw;
+    height: 30vh;
+    place-self: center
+    ;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 6px 0px ;
+}
